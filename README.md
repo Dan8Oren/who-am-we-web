@@ -8,9 +8,11 @@ Pages at **https://assets.who-am-we.com/**.
 ```
 mark.png                                # WHO AM WE mark, cream (#FBF9D9 on transparent) — dark-mode
 mark-inverse.png                        # WHO AM WE mark, dark  (#0a0a0a on transparent) — light-mode
-fonts/pp-fraktion-mono/                 # PP Fraktion Mono OTFs referenced by email templates
+fonts/pp-fraktion-mono/                 # PP Fraktion Mono OTFs — primary email face
   PPFraktionMono-Regular.otf
   PPFraktionMono-Bold.otf
+fonts/fragment-mono/                    # Fragment Mono (Google Fonts, SIL OFL) — fallback face
+  FragmentMono-Regular.woff2            # loaded when PP fails; latin subset only, weight 400 only
 ```
 
 ## Consumers
